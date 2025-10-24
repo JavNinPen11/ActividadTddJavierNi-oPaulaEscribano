@@ -23,5 +23,10 @@ namespace Actividad1TDD
             }
             return result;
         }
+
+        public static bool EsContrasenyaValida(string contrasenya)
+        {
+            return true;
+        }
     }
 }
