@@ -23,7 +23,7 @@ namespace TestActividad1TDD
         public void CalcularFactorial_Correcto()
         {
             long resultado = Funciones.CalcularFactorial(5);
-            Assert.AreEqual(5, resultado, "El factorial de 5 deberia devolver 120");
+            Assert.AreEqual(120, resultado, "El factorial de 5 deberia devolver 120");
         }
     }
 }
