@@ -51,6 +51,7 @@ namespace TestActividad1TDD
             Assert.AreEqual(false, contrasenya, "La Contraseña debe tener al menos 8 caracteres");
         }
 
+        [TestMethod]
         public void EsContrasenyaValida_ContenerHashTag()
         {
             bool contrasenya = Funciones.EsContrasenyaValida("Abcdefg1");
