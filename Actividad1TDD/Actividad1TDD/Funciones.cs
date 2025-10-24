@@ -23,10 +23,11 @@ namespace Actividad1TDD
             }
             return result;
         }
-
         public static bool EsContrasenyaValida(string contrasenya)
         {
-            return true;
+            return !string.IsNullOrEmpty(contrasenya)
+                && contrasenya.Length >= 8
+                && contrasenya.Contains('#');
         }
     }
 }
